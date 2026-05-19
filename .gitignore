@@ -1,0 +1,6 @@
+venv
+__pycache__
+bundle
+res
+CGM-model.pdf
+compare_test_hit5.png
