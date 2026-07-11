@@ -1,0 +1,11 @@
+[2026-05-18 23:33:38] {continual_attenmixer.py:458} INFO - Continual debug: train_raw=50, test_raw=330, train_examples=234, test_examples=330, max_record_sessions=330
+[2026-05-18 23:33:38] {attenMixer.py:340} INFO - Start training...
+[2026-05-18 23:33:40] {attenMixer.py:371} INFO - Training Epoch: 1	Loss: 13.8702
+[2026-05-18 23:35:16] {continual_attenmixer.py:501} INFO - Train change records written to: dl_rec/res/continual_full_like_compare/bundle/train_session_changes_hit@5.csv
+[2026-05-18 23:35:16] {continual_attenmixer.py:502} INFO - Test session records written to: dl_rec/res/continual_full_like_compare/bundle/test_elm_block_continual_sessions_hit@5.csv
+[2026-05-18 23:35:16] {continual_attenmixer.py:503} INFO - Test frozen-future averages written to: dl_rec/res/continual_full_like_compare/bundle/test_elm_time_t_frozen_future_avg_hit@5.csv
+[2026-05-18 23:35:16] {continual_attenmixer.py:504} INFO - Test cumulative observed averages written to: dl_rec/res/continual_full_like_compare/bundle/test_elm_cumulative_observed_avg_hit@5.csv
+[2026-05-18 23:35:16] {continual_attenmixer.py:505} INFO - HIT@5 plot written to: dl_rec/res/continual_full_like_compare/bundle/elm_hit@5_rolling20_over_time.png
+[2026-05-18 23:35:16] {continual_attenmixer.py:506} INFO - Compare-ready HIT@5 plot written to: dl_rec/res/continual_full_like_compare/bundle/attmixer_elm_hit@5_rolling20_compare_ready.png
+[2026-05-18 23:35:16] {continual_attenmixer.py:507} INFO - Train post-update summary@5: {'count': 234, 'hr': 0.0, 'avg_rank': 6131.264957264957, 'avg_loss': 12.534782169211624}
+[2026-05-18 23:35:16] {continual_attenmixer.py:508} INFO - Test ELM block-continual observed summary@5: {'count': 330, 'hr': 0.2545454545454545, 'avg_rank': 10.142424242424243, 'avg_loss': 13.010647308465206}
